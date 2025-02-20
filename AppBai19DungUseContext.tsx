@@ -27,8 +27,8 @@ const ProfileComponent = () => {
   return <HeaderComponent />;
 };
 
-// ====== App = BAI 19-2 = USE CONTEXT = không cần TRUYỀN QUA - PROPS ======
-export default function App() {
+// ====== AppBai19DungUseContext = BAI 19-2 = USE CONTEXT = không cần TRUYỀN QUA - PROPS ======
+export default function AppBai19DungUseContext() {
   const [username, setUsername] = useState("USE_CONTEXT: tuantran1986");
 
   // CYDB - B2: SỬ DỤNG = { BỌC Provider , TRUYỀN value }
