@@ -2,8 +2,8 @@ import { Button, StyleSheet, View } from "react-native";
 // 2.7 import - CONTAINER - dependencies
 import container from "./src/dependencies/dependencies";
 import UserService from "./src/services/UserService";
-import { PostClient } from "./src/networking/Post/PostClient";
 // import { fetchPostsWithCallback } from "./src/networking/ApiClient";
+import { PostClient } from "./src/networking/Post/PostClient";
 // BAI 16 - phần 2 = CALL API = DEPENDENCIES: tối ưu bộ nhớ + dễ maintain
 export default function AppBai15Bai16() {
   // 2.8 lấy INSTANCE từ trong CONTAINER
@@ -15,7 +15,8 @@ export default function AppBai15Bai16() {
         title="call api - 1 DEPENDENCIES"
         onPress={() => {
           // 2.9 sử dụng METHOD trong INSTANCE
-          postClient.fetchPostsWithCallback();
+          // postClient.fetchPostsWithCallback();
+          postClient.fetchPostsWithCallback(() => {});
         }}
       />
       <View style={{ margin: 10 }}></View>
