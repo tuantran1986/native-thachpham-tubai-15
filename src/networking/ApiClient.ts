@@ -16,7 +16,7 @@ export class ApiClient {
 // import axios from 'axios';
 // import { Post } from '../model/Post';
 
-// export function fetchPosts() {
+// export function fetchPostsWithCallback() {
 //     axios.get<Post[]>('https://jsonplaceholder.typicode.com/posts')
 //         .then(res => {
 //             res.data.forEach(elm => {

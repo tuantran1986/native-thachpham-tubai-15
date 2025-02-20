@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Post } from "./src/model/Post";
 
 // BAI 16 - phần 2 = CALL API = DEPENDENCIES: tối ưu bộ nhớ + dễ maintain
-export default function App() {
+export default function AppBai17Phan2() {
   const [posts, setPosts] = useState<Post[]>([]);
   // 2.8 lấy INSTANCE từ trong CONTAINER
   const postClient = container.get<PostClient>("PostClient");
