@@ -2,7 +2,7 @@ import { StyleSheet, Text, TextInput, View } from "react-native";
 import { useEffect, useRef, useState } from "react";
 
 // ====== App = BAI 20-2 = "ĐẾM SỐ LẦN RENDER" = "BIẾN REF" là "ĐÚNG" ======
-export default function App() {
+export default function AppBai20BienRef() {
   // 1. sử dụng BIẾN STATE: khi thay đổi - sẽ làm COMPONENT RENDER LẠI, vẫn lưu được VALUE sau mỗi lần render
   // 2. sử dụng BIẾN THƯỜNG: khi thay đổi - không làm COMPONENT RENDER LẠI, sẽ bị RESET VALUE - khi COMPONENT RENDER LẠI
   // 3. sử dụng BIẾN REF = (STATE + BIẾN THƯỜNG): khi thay đổi - không làm COMPONENT RENDER LẠI, vẫn lưu được VALUE sau mỗi lần render
