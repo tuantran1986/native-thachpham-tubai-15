@@ -53,7 +53,7 @@ const reducer = (state: TodoType[], action: ActionType) => {
 // •	"CÓ ƯU ĐIỂM - 2" = TÁCH ĐƯỢC LOGIC XỬ LÝ STATE
 // •	"CÓ ƯU ĐIỂM - 3" = chỉ DISPATCH 1 tín hiệu lên REDUCER
 
-export default function App() {
+export default function AppBai21TodoListUseReducer() {
   // const [todoList, setTodoList] = useState(initialTodoList);
   const [todoList, dispatch] = useReducer(reducer, initialTodoList);
   // const handleComplete = (id) => {
