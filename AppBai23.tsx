@@ -1,11 +1,13 @@
 import { StyleSheet, View } from "react-native";
-import AppBai24UseMemo from "./src/Bai24UseMemo/AppBai24UseMemo";
+import AppBai23UseCallbackMemo from "./src/Bai23UseCallbackMemo/AppBai23UseCallbackMemo";
+// import AppBai22KhongDungUseCallbackMemo from "./src/Bai22KhongDungUseCallbackMemo/AppBai22KhongDungUseCallbackMemo";
 
 export default function App() {
   // ---------- component render ----------
   return (
     <View style={styles.container}>
-      <AppBai24UseMemo />
+      {/* <AppBai22KhongDungUseCallbackMemo /> */}
+      <AppBai23UseCallbackMemo />
     </View>
   );
 }
