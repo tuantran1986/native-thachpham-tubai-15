@@ -1,11 +1,11 @@
 import { StyleSheet, View } from "react-native";
-import AppBai24UseMemo from "./src/Bai24UseMemo/AppBai24UseMemo";
+import AppBai24CustomHook from "./AppBai24CustomHook";
 
 export default function App() {
   // ---------- component render ----------
   return (
     <View style={styles.container}>
-      <AppBai24UseMemo />
+      <AppBai24CustomHook />
     </View>
   );
 }
