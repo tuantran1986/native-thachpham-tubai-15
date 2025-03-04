@@ -1,11 +1,12 @@
 import { StyleSheet, View } from "react-native";
-import AppBai24CustomHook from "./AppBai24CustomHook";
+// import AppBai25ReduxToolkit from "./src/Bai25ReduxToolkit/Component/AppBai25ReduxToolkit";
+import Bai26ReduxToolkitQuery from "./src/Bai26ReduxToolkitQuery/Component/Bai26ReduxToolkitQuery";
 
 export default function App() {
   // ---------- component render ----------
   return (
     <View style={styles.container}>
-      <AppBai24CustomHook />
+      <Bai26ReduxToolkitQuery />
     </View>
   );
 }
